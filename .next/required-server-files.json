@@ -13,9 +13,9 @@
     "typedRoutes": false,
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "",
+    "assetPrefix": "/deadlock-detector",
     "cacheMaxMemorySize": 52428800,
-    "configOrigin": "default",
+    "configOrigin": "next.config.mjs",
     "useFileSystemPublicRoutes": true,
     "generateEtags": true,
     "pageExtensions": [
@@ -47,7 +47,7 @@
         256,
         384
       ],
-      "path": "/_next/image",
+      "path": "/deadlock-detector/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -61,7 +61,7 @@
       "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
       "contentDispositionType": "attachment",
       "remotePatterns": [],
-      "unoptimized": false
+      "unoptimized": true
     },
     "devIndicators": {
       "position": "bottom-left"
@@ -71,11 +71,11 @@
       "pagesBufferLength": 5
     },
     "amp": {
-      "canonicalBase": ""
+      "canonicalBase": "/deadlock-detector"
     },
-    "basePath": "",
+    "basePath": "/deadlock-detector",
     "sassOptions": {},
-    "trailingSlash": false,
+    "trailingSlash": true,
     "i18n": null,
     "productionBrowserSourceMaps": false,
     "excludeDefaultMomentLocales": true,
@@ -91,6 +91,7 @@
     "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
+    "output": "export",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
@@ -286,7 +287,7 @@
     },
     "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight",
     "bundlePagesRouterDependencies": false,
-    "configFileName": "next.config.js",
+    "configFileName": "next.config.mjs",
     "turbopack": {
       "root": "C:\\Users\\raksh\\Downloads\\deadlock-studio"
     }
